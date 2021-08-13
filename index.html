@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>child parent </title>
+        <style>
+            #p1{
+                width:500px;
+                height: 500px;
+                background: red;
+                border: 500px;
+            }
+            #pp1{
+                width: 400px;
+                height: 400px;
+                background: green;
+                border-top-right-radius: 400px;
+                border-bottom-left-radius: 400px;
+
+            }
+            #ppp1{
+                width: 300px;
+                height: 300px;
+                background: hotpink;
+                border-top-right-radius: 300px;
+                border-bottom-left-radius: 300px;
+            }
+            #pppp1{
+                width: 200px;
+                height: 200px;
+                background: indigo;
+                border-top-right-radius: 200px;
+                border-bottom-left-radius: 200px;
+            }
+            #p1:hover #pp1{
+                background: lemonchiffon;
+            }
+            #p1:hover #ppp1{
+                background: lightblue;
+            }
+            #p1:hover #pppp1{
+                background: lightseagreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="p1">
+            <div id="pp1">
+                <div id="ppp1">
+                    <div id="pppp1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
